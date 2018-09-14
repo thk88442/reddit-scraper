@@ -9,8 +9,8 @@ import scrapy
 
 
 class RedditItem(scrapy.Item):
-    # title = scrapy.Field()
-    # subreddit = scrapy.Field()
-    # comment_num = scrapy.Field()
-    # upvotes = scrapy.Field()
+    title = scrapy.Field()
+    subreddit = scrapy.Field()
+    comment_num = scrapy.Field()
+    upvotes = scrapy.Field()
     pass

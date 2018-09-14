@@ -7,10 +7,7 @@ class RedditCrawler(scrapy.Spider):
     allowed_domain = 'reddit.com'
 
     def start_requests(self):
-        urls = [
-            'https://www.reddit.com/r/BlackPeopleTwitter/',
-            'https://www.reddit.com/r/todayilearned/',
-            'https://www.reddit.com/r/MapPorn/',
+        urls = [ #enter your subreddits as below ex. https://www.reddit.com/r/AskReddit/
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)

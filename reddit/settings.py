@@ -90,12 +90,12 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-drivername = 'mysql'
-user = 'xognl313'
-host = 'localhost'
-passwd = 'Tlqkf212!'
-port = 3306
-db_name = 'reddit'
+drivername = ''
+user = ''
+host = ''
+passwd = ''
+port =
+db_name = ''
 
 CONNECTION_STRING = f'{drivername}://{user}:{passwd}@{host}:{port}/{db_name}?charset=utf8'
 
